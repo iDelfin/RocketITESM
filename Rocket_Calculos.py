@@ -85,7 +85,7 @@ while enVuelo:
         print("Activando motores para lanzar carga util!!!")
         
     #Agregar un if talvez para checar que la carga util haya sido lanzada
-    if velocity <= 0.50:
+    if velocity <= 0.40:
         print("Cambiando a loop de caida... Vamos para abajo!!!!")
         enVuelo = False
         
